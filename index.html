@@ -10,8 +10,8 @@
     </head>
     <body>
         
-        <button onClick={subscribe()}>subscribe</button>
-        <script src="" async defer>
+        <button onClick={subscribe}>subscribe</button>
+        <script>
             addEventListener('load',async()=>{
                 let sw = navigator.serviceWorker.register('./sw.js');
                 console.log(sw);
