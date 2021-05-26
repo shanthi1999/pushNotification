@@ -9,10 +9,10 @@ push.setVapidDetails('mailto:shanthibabu1999@gmail.com',vapIdKeys.publicKey,vapI
 
 let sub = {
     endpoint:"https://fcm.googleapis.com/fcm/send/cdEfyFDFZTA:APA91bGmRouDukhAQRHTcR0fsdSzE05_cyb27u3SSmhdW1ziIAxp5gDsMWbvd8EB4QPHBMrQZ9EWsjv2rLDVfaM_t12OsJgRP2gr8zUcvOWNcNgd5IUC3aXh2ZQEX7GcnabN5iZHoRJx",
-           expirationTime:null,
-           keys:{
-               p256dh:"BCDZ4uVJf5oMoHGiPLigYPsUW4Vxoc73ry4uEGL2HynU-JObih8ZcwCGtVmrVNs3XBb7bp-8zsoSDcUAeDakYBw",
-               auth:"K1cQMNMSQWUXydI1hl8w2A"
-           }}
+    expirationTime:null,
+    keys:{
+        p256dh:"BCDZ4uVJf5oMoHGiPLigYPsUW4Vxoc73ry4uEGL2HynU-JObih8ZcwCGtVmrVNs3XBb7bp-8zsoSDcUAeDakYBw",
+          auth:"K1cQMNMSQWUXydI1hl8w2A"
+    }}
 
 push.sendNotification(sub, 'test message');
